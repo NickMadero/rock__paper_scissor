@@ -9,9 +9,9 @@ def play():
         return 'tie'
 
     if is_win(user, computer):
-        return 'you won'
+        return 'you won nice job '
 
-    return 'you lost'
+    return 'you lost sorry'
 
 
 def is_win(player, opponent):
